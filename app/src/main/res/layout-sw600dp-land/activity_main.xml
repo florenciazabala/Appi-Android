@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom|fill_vertical"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:text="@string/texto_boton"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#00FFFFFF"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="@color/white"
+        tools:layout_editor_absoluteX="432dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1306dp"
+        android:layout_height="977dp"
+        app:srcCompat="@drawable/background_android"
+        tools:layout_editor_absoluteX="-195dp"
+        tools:layout_editor_absoluteY="-310dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_app"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
